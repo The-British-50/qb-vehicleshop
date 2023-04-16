@@ -38,49 +38,49 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-45.65, -1093.66, 25.44, 69.5), -- where the vehicle will spawn on display
-                defaultVehicle = 'adder', -- Default display vehicle
-                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
+                coords = vector4(-37.1, -1092.81, 26.3, 175.21), -- where the vehicle will spawn on display
+                defaultVehicle = 'rsvr16', -- Default display vehicle
+                chosenVehicle = 'rsvr16', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(-48.27, -1101.86, 25.44, 294.5),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2'
+                coords = vector4(-42.18, -1101.5, 26.3, 37.38),
+                defaultVehicle = 'rs6',
+                chosenVehicle = 'rs6'
             },
             [3] = {
-                coords = vector4(-39.6, -1096.01, 25.44, 66.5),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2'
+                coords = vector4(-47.88, -1092.0, 26.3, 280.66),
+                defaultVehicle = 'xc90',
+                chosenVehicle = 'xc90'
             },
             [4] = {
-                coords = vector4(-51.21, -1096.77, 25.44, 254.5),
-                defaultVehicle = 'vigero',
-                chosenVehicle = 'vigero'
+                coords = vector4(-49.47, -1083.57, 26.3, 98.57),
+                defaultVehicle = 'golf8gti',
+                chosenVehicle = 'golf8gti'
             },
             [5] = {
-                coords = vector4(-40.18, -1104.13, 25.44, 338.5),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20'
+                coords = vector4(-54.42, -1096.62, 26.3, 124.83),
+                defaultVehicle = 'fpacehm',
+                chosenVehicle = 'fpacehm'
             },
             [6] = {
-                coords = vector4(-43.31, -1099.02, 25.44, 52.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                coords = vector4(-50.03, -1083.48, 26.3, 228.03),
+                defaultVehicle = 'raptor2017',
+                chosenVehicle = 'raptor2017'
             },
             [7] = {
-                coords = vector4(-50.66, -1093.05, 25.44, 222.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                coords = vector4(-42.29, -1092.21, 26.27, 168.08),
+                defaultVehicle = 'exc530',
+                chosenVehicle = 'exc530'
             },
             [8] = {
-                coords = vector4(-44.28, -1102.47, 25.44, 298.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                coords = vector4(-37.12, -1098.51, 26.27, 61.77),
+                defaultVehicle = 'r1v2',
+                chosenVehicle = 'r1v2'
             }
         },
     },
     ['luxury'] = {
-        ['Type'] = 'managed', -- meaning a real player has to sell the car
+        ['Type'] = 'free-use', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-1260.6973876953, -349.21334838867),
@@ -110,33 +110,53 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-1265.31, -354.44, 35.91, 205.08),
-                defaultVehicle = 'italirsx',
-                chosenVehicle = 'italirsx'
+                defaultVehicle = 'f430s',
+                chosenVehicle = 'f430s'
             },
             [2] = {
                 coords = vector4(-1270.06, -358.55, 35.91, 247.08),
-                defaultVehicle = 'italigtb',
-                chosenVehicle = 'italigtb'
+                defaultVehicle = 'fgt',
+                chosenVehicle = 'fgt'
             },
             [3] = {
                 coords = vector4(-1269.21, -365.03, 35.91, 297.12),
-                defaultVehicle = 'nero',
-                chosenVehicle = 'nero'
+                defaultVehicle = 'regera',
+                chosenVehicle = 'regera'
             },
             [4] = {
                 coords = vector4(-1252.07, -364.2, 35.91, 56.44),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                defaultVehicle = 'lykan',
+                chosenVehicle = 'lykan'
             },
             [5] = {
                 coords = vector4(-1255.49, -365.91, 35.91, 55.63),
-                defaultVehicle = 'carbonrs',
-                chosenVehicle = 'carbonrs'
+                defaultVehicle = 'fxxk',
+                chosenVehicle = 'fxxk'
             },
             [6] = {
                 coords = vector4(-1249.21, -362.97, 35.91, 53.24),
-                defaultVehicle = 'hexer',
-                chosenVehicle = 'hexer'
+                defaultVehicle = 'lp670sv',
+                chosenVehicle = 'lp670sv'
+            },
+            [7] = {
+                coords = vector4(-1252.29, -354.56, 35.91, 142.49),
+                defaultVehicle = 'c7',
+                chosenVehicle = 'c7'
+            },
+            [8] = {
+                coords = vector4(-1263.1, -360.35, 35.91, 296.66),
+                defaultVehicle = 'huracanst',
+                chosenVehicle = 'huracanst'
+            },
+            [9] = {
+                coords = vector4(-1261.54, -364.61, 35.91, 322.58),
+                defaultVehicle = 'cgts',
+                chosenVehicle = 'cgts'
+            },
+            [10] = {
+                coords = vector4(-1257.96, -355.27, 35.91, 202.24),
+                defaultVehicle = 'r8ppi',
+                chosenVehicle = 'r8ppi'
             },
         }
     }, -- Add your next table under this comma
@@ -183,6 +203,11 @@ Config.Shops = {
                 coords = vector4(-741.53, -1349.7, -2.00, 229.5),
                 defaultVehicle = 'marquis',
                 chosenVehicle = 'marquis'
+            },
+            [5] = {
+                coords = vector4(-746.79, -1356.91, -0.47, 229.29),
+                defaultVehicle = 'yacht2',
+                chosenVehicle = 'yacht2'
             },
         },
     },
@@ -233,7 +258,7 @@ Config.Shops = {
         },
     },
     ['truck'] = {
-        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Type'] = 'managed', -- no player interaction is required to purchase a car
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
                 vector2(872.23, -1173.5),
@@ -249,7 +274,7 @@ Config.Shops = {
             ['maxZ'] = 28.0, -- max height of the shop zone
             ['size'] = 5.75 -- size of the vehicles zones
         },
-        ['Job'] = 'none', -- Name of job or none
+        ['Job'] = 'armoury', -- Name of job or none
         ['ShopLabel'] = 'Truck Motor Shop', -- Blip name
         ['showBlip'] = true, -- true or false
         ['blipSprite'] = 477, -- Blip sprite
